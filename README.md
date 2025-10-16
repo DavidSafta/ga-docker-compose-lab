@@ -44,3 +44,4 @@ docker compose down -v
 - **Port ocupat (5432/8888):** schimbă mapările în `compose.yaml` (ex. `5433:5432`, `8889:8080`) și rulează din nou `up -d`.
 - **`db` nu devine healthy:** `docker logs qa_db`.
 - **Docker engine nu pornește:** repornește Docker Desktop sau `wsl --shutdown`.
+_Note: Testat pe Windows 11 cu Docker Desktop (WSL2)._
